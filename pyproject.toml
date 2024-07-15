@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "creativecoding"
+version = "0.1.0"
+description = ""
+authors = ["izabellealler <izabelle.aller@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ignr = "^2.2"
+ruff = "^0.5.2"
+taskipy = "^1.13.0"
+py5 = {extras = ["extras"], version = "^0.10.1a1"}
+
+[tool.taskipy.tasks]
+ruff = 'ruff check'
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.lint]
+preview = true
+select = ['I', 'F', 'E', 'W', 'PL', 'PT']
+ignore = ['E402', 'F811']
+
+[tool.ruff.format]
+preview = true
+quote-style = 'single'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
