@@ -12,6 +12,7 @@ ignr = "^2.2"
 ruff = "^0.5.2"
 taskipy = "^1.13.0"
 py5 = {extras = ["extras"], version = "^0.10.1a1"}
+pydantic = "^2.8.2"
 
 [tool.taskipy.tasks]
 ruff = 'ruff check'
