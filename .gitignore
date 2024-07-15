@@ -185,6 +185,9 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
+# Scripts file
+.script/
+
 # End of https://www.toptal.com/developers/gitignore/api/python,processing
 
 # Generated using ignr.py - github.com/Antrikshy/ignr.py
