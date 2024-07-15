@@ -186,7 +186,7 @@ poetry.toml
 pyrightconfig.json
 
 # Scripts file
-scripts/
+/scripts
 
 # End of https://www.toptal.com/developers/gitignore/api/python,processing
 
